@@ -1,0 +1,31 @@
+.preview {
+  background-color: black;
+  height: 150px;
+}
+
+.preview > h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 700;
+  word-break: break-word;
+  line-height: 1em;
+  letter-spacing: -.04em; 
+  padding-top: 10px;
+}
+
+.preview > button {
+  display: block;
+  height: 30px;
+  width: 150px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: sans-serif;
+  border-radius: 5px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to bottom right, #ff00B8, #ffc700 );
+}

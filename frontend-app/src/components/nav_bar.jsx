@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styling/navbar.css';
-import { Route } from 'react-router';
 
 const NavBar = () => (
   <div className='nav-bar'>
@@ -24,7 +23,7 @@ const NavBar = () => (
     </div>
     <div className='right-nav'>
       <div className='links'>
-        <div>
+        <div >
           <a href="/incubator">Incubator</a>
         </div>
         <div>
