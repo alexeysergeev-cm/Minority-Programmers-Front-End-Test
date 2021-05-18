@@ -29,3 +29,68 @@
   margin-right: auto;
   background-image: linear-gradient(to bottom right, #ff00B8, #ffc700 );
 }
+
+.incubator-index{
+  background-image: linear-gradient(to right, #ff00B8, #ffc700 );
+  height: 100vw;
+}
+
+
+
+
+
+.f-desc{
+  height: 200px;
+  width: 200px;
+  background-color: transparent;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+
+.f-desc > h1 {
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 40px;
+}
+.f-desc > p {
+  font-size: 17px;
+  width: 160px;
+  word-break: normal;
+  padding-left: 20px;
+}
+
+
+.featured{
+  display: flex;
+  text-decoration: none;
+}
+
+.f-index-container{
+  display: flex;
+  padding: 20px;
+  overflow: auto;
+}
+
+.f-index-container > a {
+  text-decoration: none;
+}
+
+.startup{
+  width: 250px;
+  height: 150px;
+  padding: 10px;
+  text-decoration: none;
+  background: white;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px black;
+}
+
+.s-btns{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
