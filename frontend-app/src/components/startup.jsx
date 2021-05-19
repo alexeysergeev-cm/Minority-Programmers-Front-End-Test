@@ -37,7 +37,7 @@ class StartUp extends React.Component{
     let teamSection; 
     if (team){
       teamSection = team.map(member => (
-            <h1>{member}</h1>
+            <p>{member}</p>
           )) 
     }
     let tagSection;
@@ -62,15 +62,15 @@ class StartUp extends React.Component{
             <div className='s-sidebar'>
               <div>{founded}</div>
               <hr className="Solid" />
-              <div>
+              <div style={{'font-size': '22px'}}>
                 <h1>Website</h1>
-                {website}
+                <a href="`https://${website}`" style={{'textDecoration': 'none', 'color': 'blue'}}>{website}</a>
               </div>
-              <div>
+              <div style={{'font-size': '22px'}}>
                 <h1>Location</h1>
                 {location}
               </div>
-              <div>
+              <div style={{'font-size': '22px'}}>
                 <h1>Team Size</h1>
                 {teamsize}
               </div>

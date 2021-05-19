@@ -41,6 +41,44 @@
   padding: 25px;
 }
 
+.s-sidebar > div:first-child{
+  font-size: 22px;
+  font-weight: 500;
+}
+.s-sidebar > div:nth-child(3) > h1{
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.s-sidebar > div:nth-child(4) > h1{
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.s-sidebar > div:nth-child(5) > h1{
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.s-sidebar > div:nth-child(7) > h1:first-child{
+  font-size: 22px;
+  font-weight: 500;
+}
+.s-sidebar > div:nth-child(7) > p{
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 10px;
+}
+.s-sidebar > div:nth-child(9){
+  font-size: 22px;
+  font-weight: 500;
+  padding: 20px 20px 25px 25px;
+}
+.s-sidebar > div:nth-child(9) > button{
+  font-size: 12px;
+  margin: 2px;
+}
+
 .start-main{
   display: flex;
   align-items: flex-start;

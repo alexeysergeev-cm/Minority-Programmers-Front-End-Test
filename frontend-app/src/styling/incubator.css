@@ -1,9 +1,23 @@
 .preview {
   background-color: black;
   height: 200px;
+  display: flex;
+}
+.preview > div {
+  height: inherit;
+  width: 50%;
+  background-image: url("/src/images/viktor-forgacs-3PyBkxgTiL0-unsplash.jpg");
+  background-position: right;
+  background-position: center;
+  background-size: cover;
 }
 
-.preview > h1 {
+.preview > span {
+  width: 400px;
+  padding: 20px 0 0 50px;
+}
+
+.preview > span > h1 {
   text-align: center;
   color: rgb(255, 255, 255);
   font-size: 40px;
@@ -15,7 +29,7 @@
   padding-top: 10px;
 }
 
-.preview > button {
+.preview > span >button {
   display: block;
   height: 30px;
   width: 150px;
@@ -28,6 +42,7 @@
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom right, #ff00B8, #ffc700 );
+  margin-top: 10px;
 }
 
 .incubator-index{

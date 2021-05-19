@@ -17,8 +17,11 @@ class IncubatorIndex extends React.Component{
     return(
       <div className='incubator-container'>
         <div className='preview'>
-          <h1>Invest directly into minority innovations</h1>
-          <button>View Startups</button>
+          <div></div>
+          <span>
+            <h1>Invest directly into minority innovations.</h1>
+            <button>View Startups</button>
+          </span>
         </div>
         <div className='incubator-index'>
           <div className='featured'>
