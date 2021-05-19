@@ -66,12 +66,14 @@
 .featured{
   display: flex;
   text-decoration: none;
+  padding: 40px 20px 20px 20px;
 }
 
 .f-index-container{
   display: flex;
   padding: 20px;
   overflow: auto;
+  margin-right: 80px;
 }
 .f-index-container::-webkit-scrollbar {
   display: none;
@@ -82,8 +84,8 @@
 }
 
 .startup-item{
-  width: 250px;
-  height: 150px;
+  width: 200px;
+  height: 250px;
   padding: 10px;
   text-decoration: none;
   background: white;
