@@ -3,7 +3,7 @@ import { Route} from 'react-router-dom';
 import HomePage from './components/home_page';
 import IncubatorIndex from './components/incubator';
 import NavBar from './components/nav_bar';
-import StartUp from './components/start_up';
+import StartUp from './components/startup';
 
 
 const App = () => (

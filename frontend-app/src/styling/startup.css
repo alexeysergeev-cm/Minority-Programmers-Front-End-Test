@@ -1,0 +1,49 @@
+.startup{
+  background-image: linear-gradient(to right, #ff00B8, #ffc700 );
+  height: 100vw;
+}
+
+.s-container{
+  position: absolute;
+  margin: 30px;
+  width: 95vw;
+}
+
+.s-header{
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 10px;
+  height: 50px;
+}
+
+.s-header > div:first-of-type > button{
+  border-radius: 50%;
+  height: 40px;
+}
+
+.s-header > div:last-of-type > button{
+  background-image: linear-gradient(to bottom right, #ff00B8, #ffc700 );
+  height: 35px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.s-sidebar{
+  width: 300px;
+  background: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+.s-sidebar > div{
+  display: block;
+  padding: 25px;
+}
+
+
+.s-main{
+
+}
+
+.s-footer{
+
+}
