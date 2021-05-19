@@ -13,6 +13,7 @@ class IncubatorIndex extends React.Component{
   }
 
   render(){
+    let str = "<Code/>"
     return(
       <div className='incubator-container'>
         <div className='preview'>
@@ -41,13 +42,13 @@ class IncubatorIndex extends React.Component{
           </div>
           <div className='mid-section'>
             <div className='ele1'>
-
+                <p>Advice a startup</p>
             </div>
             <div className='ele2'>
-
+                <p>Join Minority Ventures Cohort</p>
             </div>
             <div className='ele3'>
-
+                <p>Help {str}</p>
             </div>
           </div>
           <div className='upcoming'>
