@@ -17,6 +17,16 @@
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
 }
+.s-header > div:nth-child(1){
+  display: flex;
+  justify-content: space-between;
+}
+
+.s-header > div:nth-child(1) > div{
+  font-size: 30px;
+  font-weight: 700;
+  margin: 5px 20px;
+}
 
 .s-header > div:first-of-type > button{
   border-radius: 50%;
@@ -25,9 +35,12 @@
 
 .s-header > div:last-of-type > button{
   background-image: linear-gradient(to bottom right, #ff00B8, #ffc700 );
-  height: 35px;
-  width: 150px;
-  border-radius: 5px;
+  height: 45px;
+  width: 180px;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-weight: 600;
+  margin-right: 20px;
 }
 
 .s-sidebar{
@@ -128,4 +141,11 @@
   margin: 5px;
   border-radius: 5px;
   box-shadow: 0px 1px 5px black;
+}
+
+
+.related-item > h1 {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
 }

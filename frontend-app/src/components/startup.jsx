@@ -52,8 +52,8 @@ class StartUp extends React.Component{
           <div className='s-header'>
             <div>
               <button>Back</button>
+              <div>{name}</div>
             </div>
-            <div>{name}</div>
             <div>
               <button>Fund Startup</button>
             </div>
