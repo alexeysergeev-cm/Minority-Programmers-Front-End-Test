@@ -1,6 +1,6 @@
 .preview {
   background-color: black;
-  height: 150px;
+  height: 200px;
 }
 
 .preview > h1 {
@@ -40,26 +40,25 @@
 
 
 .f-desc{
-  height: 200px;
+  height: 250px;
   width: 200px;
   background-color: transparent;
-  text-align: center;
+  text-align: initial;
   padding: 10px;
   color: white;
   font-family: sans-serif;
   margin-left: 20px;
+  margin: 10px;
 }
 
 .f-desc > h1 {
-  font-size: 22px;
+  font-size: 35px;
   font-weight: 700;
   padding-top: 40px;
+  line-height: 1.1;
 }
 .f-desc > p {
   font-size: 17px;
-  width: 160px;
-  word-break: normal;
-  padding-left: 20px;
 }
 
 
@@ -67,6 +66,7 @@
   display: flex;
   text-decoration: none;
   padding: 40px 20px 20px 20px;
+  margin: 0 20px;
 }
 
 .f-index-container{
@@ -89,7 +89,7 @@
   padding: 10px;
   text-decoration: none;
   background: white;
-  margin: 5px;
+  margin: 10px;
   border-radius: 5px;
   box-shadow: 0px 1px 5px black;
 }
@@ -115,6 +115,20 @@
   text-align: center;
   display: flex;
   justify-content: center;
+  background-size: cover;
+}
+
+.mid-section > div:first-child{
+  background-image: url("/src/images/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg");
+}
+
+.mid-section > div:nth-child(2){
+  background-image: url("/src/images/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg");
+  background-position: bottom;
+}
+
+.mid-section > div:nth-child(3){
+  background-image: url("/src/images/priscilla-du-preez-nF8xhLMmg0c-unsplash.jpg");
 }
 
 .mid-section > div > p{
@@ -128,6 +142,7 @@
   color: white;
   font-family: sans-serif;
   font-size: 16px;
+  font-weight: 700;
 }
 
 
@@ -137,32 +152,31 @@
 .upcoming{
   display: flex;
   text-decoration: none;
+  padding: 40px 20px 20px 20px;
 }
 
 .u-desc{
   background-color: transparent;
-  text-align: center;
+  text-align: initial;
   padding: 10px;
   color: white;
   font-family: sans-serif;
   margin-left: 20px; 
-  width: 250px;
-  height: 150px;
+  width: 200px;
+  height: 250px;
   text-decoration: none;
-  margin: 5px;
+  margin: 10px;
 }
 
 .u-desc > h1{
-  font-size: 22px;
+  font-size: 35px;
   font-weight: 700;
   padding-top: 40px;
+  line-height: 1.1;
 }
 
 .u-desc > p {
   font-size: 17px;
-  width: 160px;
-  word-break: normal;
-  padding-left: 20px;
 }
 
 .u-index-container{
