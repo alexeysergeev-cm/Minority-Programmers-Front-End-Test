@@ -50,3 +50,14 @@ table {
 a {
 	color: black;
 }
+
+button {
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding: 2px 5px;
+}
+
+button:hover{
+	cursor: pointer;
+	background: rgba(0,0,0, 20%);
+}
