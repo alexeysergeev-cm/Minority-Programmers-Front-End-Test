@@ -2,6 +2,8 @@ import React from 'react';
 import '../styling/incubator.css';
 import { Link } from 'react-router-dom';
 import IncubatorItem from './incubator_index_item';
+import '../reset.css';
+
 const incData = require('../data/incubator.json');
 
 
