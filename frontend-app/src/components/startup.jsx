@@ -2,6 +2,7 @@ import React from 'react';
 import '../styling/startup.css'
 import { Link } from 'react-router-dom';
 const incData = require('../data/incubator.json');
+const upcomingData = require('../data/upcoming.json');
 
 class StartUp extends React.Component{
   constructor(){
@@ -11,10 +12,19 @@ class StartUp extends React.Component{
 
   componentDidMount(){
     let startUp;
-    for(let i = 0; i < incData.length; i++){
-      if(incData[i].id === this.props.match.params.startUpId) {
-        startUp = incData[i];
-        break;
+    let length = incData.length > upcomingData.length ? incData.length : upcomingData.length;
+    for(let i = 0; i < length; i++){
+      if (incData[i]){
+        if(incData[i].id === this.props.match.params.startUpId) {
+          startUp = incData[i];
+          break;
+        }
+      }
+      if(upcomingData[i]) {
+        if(upcomingData[i].id === this.props.match.params.startUpId) {
+          startUp = upcomingData[i];
+          break;
+        }
       }
     }
 

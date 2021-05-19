@@ -1,12 +1,11 @@
 .startup{
   background-image: linear-gradient(to right, #ff00B8, #ffc700 );
-  height: 100vh;
+  padding-bottom: 40px;
 }
 
 .s-container{
-  position: absolute;
+  padding-top: 40px;
   margin: 30px;
-  width: 95vw;
 }
 
 .s-header{
@@ -76,6 +75,10 @@
 .related-cont {
   display: flex;
   overflow: auto;
+}
+
+.related-cont::-webkit-scrollbar {
+  display: none;
 }
 
 .related-item{

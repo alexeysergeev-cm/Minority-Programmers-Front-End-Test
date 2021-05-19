@@ -3,7 +3,7 @@ import '../styling/incubator.css';
 import { Link } from 'react-router-dom';
 import IncubatorItem from './incubator_index_item';
 
-
+const upcomingData = require('../data/upcoming.json');
 const incData = require('../data/incubator.json');
 
 
@@ -52,11 +52,22 @@ class IncubatorIndex extends React.Component{
             </div>
           </div>
           <div className='upcoming'>
-            <div className='u-desc'>
-
-            </div>
             <div className='u-index-container'>
-
+            <div className='u-desc'>
+              <h1>Upcoming Startups</h1>
+              <p>These visionary companies and disruptors are on their journey to change the world</p>
+            </div>
+                {upcomingData.map(startUp => {
+                  return (
+                    <Link key={startUp.id} to={`/incubator/${startUp.id}`}>
+                      <div>
+                        <IncubatorItem 
+                          startUp={startUp} 
+                        />
+                      </div>
+                    </Link>
+                  )
+                })}
             </div>
           </div>
         </div>

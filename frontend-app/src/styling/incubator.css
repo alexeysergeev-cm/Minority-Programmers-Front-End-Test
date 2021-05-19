@@ -32,7 +32,7 @@
 
 .incubator-index{
   background-image: linear-gradient(to right, #ff00B8, #ffc700 );
-  height: 100vw;
+  height: 100%;
 }
 
 
@@ -72,6 +72,9 @@
   display: flex;
   padding: 20px;
   overflow: auto;
+}
+.f-index-container::-webkit-scrollbar {
+  display: none;
 }
 
 .f-index-container > a {
@@ -125,3 +128,46 @@
   font-size: 16px;
 }
 
+
+
+
+
+.upcoming{
+  display: flex;
+  text-decoration: none;
+}
+
+.u-desc{
+  background-color: transparent;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-family: sans-serif;
+  margin-left: 20px; 
+  width: 250px;
+  height: 150px;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.u-desc > h1{
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 40px;
+}
+
+.u-desc > p {
+  font-size: 17px;
+  width: 160px;
+  word-break: normal;
+  padding-left: 20px;
+}
+
+.u-index-container{
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.u-index-container > a {
+  text-decoration: none;
+}
