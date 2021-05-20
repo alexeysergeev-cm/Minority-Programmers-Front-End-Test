@@ -27,8 +27,8 @@ class Learn extends React.Component{
           <div className='break'>
             <span>My Courses</span>
             <h2></h2>
-            <button>Back</button>
-            <button>Forward</button>
+            <img src="https://img.icons8.com/carbon-copy/48/ffffff/left.png"/>
+            <img src="https://img.icons8.com/carbon-copy/48/ffffff/right.png"/>
           </div>
           <div className='my-courses'>
             {Courses.map(course => {
