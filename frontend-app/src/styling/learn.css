@@ -26,4 +26,35 @@
   margin-top: 8px;
 }
 
+.my-courses{
+  display: flex;
+  overflow: auto;
+}
+
+.my-courses::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.learn-main{
+  background: rgb(21, 19, 113);
+  height: 100%;
+}
+
+.learn-main > div > a {
+  color: white;
+  margin: 10px;
+  min-width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px rgb(255, 255, 255);
+  text-align: center;
+}
+
+.learn-search{
+  height: 70px;
+}
+
+
 

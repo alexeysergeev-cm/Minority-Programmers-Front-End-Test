@@ -1,5 +1,8 @@
 import React from 'react';
 import '../styling/learn.css';
+import { Link } from 'react-router-dom';
+
+const Courses = require("../data/courses.json");
 
 class Learn extends React.Component{
 
@@ -16,7 +19,26 @@ class Learn extends React.Component{
           </div>
         </div>
         <div className='learn-main'>
+          <div className='learn-search'>
 
+          </div>
+          <div className='my-courses'>
+            {Courses.map(course => {
+              return(
+                <Link key={course.id} to={`/learn/${course.id}`}>
+                  <div>
+                    {course.name}
+                  </div>
+                  <div>
+                    {course.brief}
+                  </div>
+                </Link>
+              )
+            })}
+          </div>
+          <div className='featured-courses'>
+
+          </div>
         </div>
       </div>
     )
