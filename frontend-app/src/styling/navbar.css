@@ -8,10 +8,14 @@
   justify-content: space-between;
 }
 
+.social{
+  margin-left: 10px;
+}
+
 .social > a > img{
   margin-left: 20px;
   margin-right: 20px;
-  padding-top: 30px;
+  padding-top: 35px;
 }
 
 .right-nav{
