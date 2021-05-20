@@ -2,9 +2,12 @@ import React from 'react';
 import '../styling/incubator.css';
 import { Link } from 'react-router-dom';
 import IncubatorItem from './incubator_index_item';
+import $ from 'jquery';
+/* eslint-env jquery */
 
 const upcomingData = require('../data/upcoming.json');
 const incData = require('../data/incubator.json');
+
 
 
 class IncubatorIndex extends React.Component{
@@ -14,7 +17,18 @@ class IncubatorIndex extends React.Component{
   }
 
   loadMore(){
-
+    // $("#load").slice(0, 10).show();
+    for(let i = 11; i < upcomingData.length; i++){
+      const startUp = upcomingData[i];
+      let div = $('<div>').attr('<IncubatorItem startUp={startUp}/>')
+      let anchor = $('<a>').attr('href', `/incubator/${startUp.id}`).append(div)
+      // let div = $(`<Link key={startUp.id} to={'/incubator/${startUp.id}'}><div><IncubatorItem startUp={startUp}/></div></Link>`)
+      // let ele = <Link key={startUp.id} to={`/incubator/${startUp.id}`}><div><IncubatorItem startUp={startUp}/></div></Link>
+      // let div = $('<div>Hello</div>')
+      debugger
+      $(".u-index-container").append(anchor);
+    }
+      
   }
 
   render(){
@@ -78,6 +92,7 @@ class IncubatorIndex extends React.Component{
                   )
                 }
               })}
+              <div id='load'></div>
               <button onClick={this.loadMore}>Load More</button> 
             </div>
           </div>
