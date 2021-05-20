@@ -36,13 +36,14 @@ class Learn extends React.Component{
           <div className='my-courses'>
             {Courses.map(course => {
               return(
-                <Link key={course.id} to={`/learn/${course.id}`}>
+                <Link key={course.id} to={`/learn/${course.id}`} className='courses-cards'>
                   <div>
                     {course.name}
                   </div>
                   <div>
                     {course.brief}
                   </div>
+                  <button>Learn</button>
                 </Link>
               )
             })}
@@ -56,13 +57,14 @@ class Learn extends React.Component{
           <div className='featured-courses'>
             {Courses.map(course => {
               return(
-                <Link key={course.id} to={`/learn/${course.id}`}>
+                <Link key={course.id} to={`/learn/${course.id}`} className='courses-cards'>
                   <div>
                     {course.name}
                   </div>
                   <div>
                     {course.brief}
                   </div>
+                  <button>Learn</button>
                 </Link>
               )
             })}
