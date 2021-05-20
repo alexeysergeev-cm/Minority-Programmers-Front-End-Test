@@ -25,7 +25,7 @@ class IncubatorIndex extends React.Component{
       // let div = $(`<Link key={startUp.id} to={'/incubator/${startUp.id}'}><div><IncubatorItem startUp={startUp}/></div></Link>`)
       // let ele = <Link key={startUp.id} to={`/incubator/${startUp.id}`}><div><IncubatorItem startUp={startUp}/></div></Link>
       // let div = $('<div>Hello</div>')
-      debugger
+      // debugger
       $(".u-index-container").append(anchor);
     }
       
