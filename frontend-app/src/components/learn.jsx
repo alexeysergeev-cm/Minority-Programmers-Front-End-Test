@@ -20,7 +20,10 @@ class Learn extends React.Component{
         </div>
         <div className='learn-main'>
           <div className='learn-search'>
-
+            <div>
+              <input type="text" />
+              <button>Filter Search</button>
+            </div>
           </div>
           {/* <hr className='Solid'/>
           <p>My Courses</p> */}
@@ -44,8 +47,28 @@ class Learn extends React.Component{
               )
             })}
           </div>
+          <div className='break'>
+            <span>Featured Courses</span>
+            <h2></h2>
+            <img src="https://img.icons8.com/carbon-copy/48/ffffff/left.png"/>
+            <img src="https://img.icons8.com/carbon-copy/48/ffffff/right.png"/>
+          </div>
           <div className='featured-courses'>
-
+            {Courses.map(course => {
+              return(
+                <Link key={course.id} to={`/learn/${course.id}`}>
+                  <div>
+                    {course.name}
+                  </div>
+                  <div>
+                    {course.brief}
+                  </div>
+                </Link>
+              )
+            })}
+          </div>
+          <div className='learn-load'>
+            <button>Load More</button>
           </div>
         </div>
       </div>

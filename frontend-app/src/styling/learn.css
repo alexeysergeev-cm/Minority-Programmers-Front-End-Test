@@ -30,6 +30,7 @@
   display: flex;
   overflow: auto;
   margin-left: 50px;
+  margin-bottom: 25px;
 }
 
 .my-courses::-webkit-scrollbar {
@@ -57,29 +58,24 @@
   height: 100px;
 }
 
-/* .learn-main > p {
-  color: rgb(255, 255, 255);
-  font-size: 25px;
-  font-weight: 800;
-  margin-left: 50px;
-  padding: 10px;
+.learn-search > div {
+  display: flex;
+  justify-content: center;
+  padding: 40px 50px;
 }
 
-.learn-main > h2 {
-  width: 100%; 
-   text-align: left; 
-   border-bottom: 1px solid white; 
-   line-height: 0.1em;
-   margin: 10px 0 20px; 
+.learn-search > div > input{
+  margin: 10px;
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
 }
-.learn-main > h2 > span{
-  background: rgb(21, 19, 113); 
-  color: rgb(255, 255, 255);
-  font-size: 25px;
-  font-weight: 800;
-  margin-left: 50px;
-  padding: 10px;
-} */
+.learn-search > div > button{
+  margin: 11px;
+  padding: 0 12px;
+  font-size: 13px;
+}
+
 
 .break {
   display: flex;
@@ -100,4 +96,20 @@
   border-bottom: 1px solid white; 
   line-height: 0.1em;
   margin: 10px 0 20px;  
+}
+
+
+.featured-courses{
+  display: flex;
+  overflow: auto;
+  margin-left: 50px;
+}
+
+.featured-courses::-webkit-scrollbar {
+  display: none;
+}
+
+.learn-load{
+  text-align: center;
+  padding: 40px 20px;
 }
