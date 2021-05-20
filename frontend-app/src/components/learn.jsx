@@ -22,6 +22,14 @@ class Learn extends React.Component{
           <div className='learn-search'>
 
           </div>
+          {/* <hr className='Solid'/>
+          <p>My Courses</p> */}
+          <div className='break'>
+            <span>My Courses</span>
+            <h2></h2>
+            <button>Back</button>
+            <button>Forward</button>
+          </div>
           <div className='my-courses'>
             {Courses.map(course => {
               return(

@@ -29,6 +29,7 @@
 .my-courses{
   display: flex;
   overflow: auto;
+  margin-left: 50px;
 }
 
 .my-courses::-webkit-scrollbar {
@@ -53,8 +54,50 @@
 }
 
 .learn-search{
-  height: 70px;
+  height: 100px;
 }
 
+/* .learn-main > p {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 800;
+  margin-left: 50px;
+  padding: 10px;
+}
 
+.learn-main > h2 {
+  width: 100%; 
+   text-align: left; 
+   border-bottom: 1px solid white; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+}
+.learn-main > h2 > span{
+  background: rgb(21, 19, 113); 
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 800;
+  margin-left: 50px;
+  padding: 10px;
+} */
 
+.break {
+  display: flex;
+}
+
+.break > span {
+  background: rgb(21, 19, 113); 
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 800;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.break > h2 {
+  width: 60%; 
+  text-align: left; 
+  border-bottom: 1px solid white; 
+  line-height: 0.1em;
+  margin: 10px 0 20px;  
+}
