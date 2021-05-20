@@ -10,6 +10,11 @@ const incData = require('../data/incubator.json');
 class IncubatorIndex extends React.Component{
   constructor(){
     super();
+    this.loadMore = this.loadMore.bind(this)
+  }
+
+  loadMore(){
+
   }
 
   render(){
@@ -56,11 +61,12 @@ class IncubatorIndex extends React.Component{
           </div>
           <div className='upcoming'>
             <div className='u-index-container'>
-            <div className='u-desc'>
-              <h1>Upcoming Startups</h1>
-              <p>These visionary companies and disruptors are on their journey to change the world</p>
-            </div>
-                {upcomingData.map(startUp => {
+              <div className='u-desc'>
+                <h1>Upcoming Startups</h1>
+                <p>These visionary companies and disruptors are on their journey to change the world</p>
+              </div>
+              {upcomingData.map((startUp, i) => {
+                while (i < 11){
                   return (
                     <Link key={startUp.id} to={`/incubator/${startUp.id}`}>
                       <div>
@@ -70,7 +76,9 @@ class IncubatorIndex extends React.Component{
                       </div>
                     </Link>
                   )
-                })}
+                }
+              })}
+              <button onClick={this.loadMore}>Load More</button> 
             </div>
           </div>
         </div>
