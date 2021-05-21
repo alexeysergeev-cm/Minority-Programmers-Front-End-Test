@@ -22,7 +22,7 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": npm run "deploy"
+    "extends": [
       "react-app",
       "react-app/jest"
     ]
