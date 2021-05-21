@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import '../styling/navbar.css';
 
 const NavBar = () => (
@@ -24,13 +25,13 @@ const NavBar = () => (
     <div className='right-nav'>
       <div className='links'>
         <div >
-          <a href="/incubator">Incubator</a>
+          <Link to="/incubator">Incubator</Link>
         </div>
         <div>
-          <a href="/learn">Learn</a>
+          <Link to="/learn">Learn</Link>
         </div>
         <div>
-          <a href="/">Join</a>
+          <Link to="/">Join</Link>
         </div>
       </div>
     </div>

@@ -3,10 +3,6 @@ import '../reset.css';
 import '../styling/homePage.css'
 
 class HomePage extends React.Component {
-  constructor(){
-    super();
-
-  }
 
   render(){
     return (

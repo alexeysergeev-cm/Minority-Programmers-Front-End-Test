@@ -31,9 +31,12 @@ class StartUp extends React.Component{
     this.setState(startUp)
   }
 
+  
+
   render(){
     // debugger
     const {name, brief, about, vision, teamsize, team, founded, website, location, tags} = this.state;
+
     let teamSection; 
     if (team){
       teamSection = team.map(member => (
@@ -46,12 +49,13 @@ class StartUp extends React.Component{
           <button>{tag}</button>
         ))
     }
+
     return(
       <div className='startup'>
         <div className='s-container'>
           <div className='s-header'>
             <div>
-              <button>Back</button>
+              <button >Back</button>
               <div>{name}</div>
             </div>
             <div>
