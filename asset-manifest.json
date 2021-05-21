@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/Minority-Programmers-Front-End-Test/static/css/main.59ef35e8.chunk.css",
-    "main.js": "/Minority-Programmers-Front-End-Test/static/js/main.0bd7f100.chunk.js",
-    "main.js.map": "/Minority-Programmers-Front-End-Test/static/js/main.0bd7f100.chunk.js.map",
+    "main.js": "/Minority-Programmers-Front-End-Test/static/js/main.236bb924.chunk.js",
+    "main.js.map": "/Minority-Programmers-Front-End-Test/static/js/main.236bb924.chunk.js.map",
     "runtime-main.js": "/Minority-Programmers-Front-End-Test/static/js/runtime-main.eb172fa8.js",
     "runtime-main.js.map": "/Minority-Programmers-Front-End-Test/static/js/runtime-main.eb172fa8.js.map",
-    "static/js/2.3d78cd44.chunk.js": "/Minority-Programmers-Front-End-Test/static/js/2.3d78cd44.chunk.js",
-    "static/js/2.3d78cd44.chunk.js.map": "/Minority-Programmers-Front-End-Test/static/js/2.3d78cd44.chunk.js.map",
+    "static/js/2.5bd4ff22.chunk.js": "/Minority-Programmers-Front-End-Test/static/js/2.5bd4ff22.chunk.js",
+    "static/js/2.5bd4ff22.chunk.js.map": "/Minority-Programmers-Front-End-Test/static/js/2.5bd4ff22.chunk.js.map",
     "index.html": "/Minority-Programmers-Front-End-Test/index.html",
     "static/css/main.59ef35e8.chunk.css.map": "/Minority-Programmers-Front-End-Test/static/css/main.59ef35e8.chunk.css.map",
-    "static/js/2.3d78cd44.chunk.js.LICENSE.txt": "/Minority-Programmers-Front-End-Test/static/js/2.3d78cd44.chunk.js.LICENSE.txt",
+    "static/js/2.5bd4ff22.chunk.js.LICENSE.txt": "/Minority-Programmers-Front-End-Test/static/js/2.5bd4ff22.chunk.js.LICENSE.txt",
     "static/media/incubator.css": "/Minority-Programmers-Front-End-Test/static/media/viktor-forgacs-3PyBkxgTiL0-unsplash.62e4ac24.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.eb172fa8.js",
-    "static/js/2.3d78cd44.chunk.js",
+    "static/js/2.5bd4ff22.chunk.js",
     "static/css/main.59ef35e8.chunk.css",
-    "static/js/main.0bd7f100.chunk.js"
+    "static/js/main.236bb924.chunk.js"
   ]
 }
