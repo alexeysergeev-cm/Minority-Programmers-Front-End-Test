@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Minority-Programmers-Front-End-Test/static/css/main.59ef35e8.chunk.css",
-    "main.js": "/Minority-Programmers-Front-End-Test/static/js/main.af8de714.chunk.js",
-    "main.js.map": "/Minority-Programmers-Front-End-Test/static/js/main.af8de714.chunk.js.map",
-    "runtime-main.js": "/Minority-Programmers-Front-End-Test/static/js/runtime-main.eb172fa8.js",
-    "runtime-main.js.map": "/Minority-Programmers-Front-End-Test/static/js/runtime-main.eb172fa8.js.map",
-    "static/js/2.3d78cd44.chunk.js": "/Minority-Programmers-Front-End-Test/static/js/2.3d78cd44.chunk.js",
-    "static/js/2.3d78cd44.chunk.js.map": "/Minority-Programmers-Front-End-Test/static/js/2.3d78cd44.chunk.js.map",
-    "index.html": "/Minority-Programmers-Front-End-Test/index.html",
-    "static/css/main.59ef35e8.chunk.css.map": "/Minority-Programmers-Front-End-Test/static/css/main.59ef35e8.chunk.css.map",
-    "static/js/2.3d78cd44.chunk.js.LICENSE.txt": "/Minority-Programmers-Front-End-Test/static/js/2.3d78cd44.chunk.js.LICENSE.txt",
-    "static/media/incubator.css": "/Minority-Programmers-Front-End-Test/static/media/viktor-forgacs-3PyBkxgTiL0-unsplash.62e4ac24.jpg"
+    "main.css": "/Minority-Programmers-Front-End-Test/frontend-app/static/css/main.ae662a26.chunk.css",
+    "main.js": "/Minority-Programmers-Front-End-Test/frontend-app/static/js/main.af8de714.chunk.js",
+    "main.js.map": "/Minority-Programmers-Front-End-Test/frontend-app/static/js/main.af8de714.chunk.js.map",
+    "runtime-main.js": "/Minority-Programmers-Front-End-Test/frontend-app/static/js/runtime-main.5af0deb7.js",
+    "runtime-main.js.map": "/Minority-Programmers-Front-End-Test/frontend-app/static/js/runtime-main.5af0deb7.js.map",
+    "static/js/2.3d78cd44.chunk.js": "/Minority-Programmers-Front-End-Test/frontend-app/static/js/2.3d78cd44.chunk.js",
+    "static/js/2.3d78cd44.chunk.js.map": "/Minority-Programmers-Front-End-Test/frontend-app/static/js/2.3d78cd44.chunk.js.map",
+    "index.html": "/Minority-Programmers-Front-End-Test/frontend-app/index.html",
+    "static/css/main.ae662a26.chunk.css.map": "/Minority-Programmers-Front-End-Test/frontend-app/static/css/main.ae662a26.chunk.css.map",
+    "static/js/2.3d78cd44.chunk.js.LICENSE.txt": "/Minority-Programmers-Front-End-Test/frontend-app/static/js/2.3d78cd44.chunk.js.LICENSE.txt",
+    "static/media/incubator.css": "/Minority-Programmers-Front-End-Test/frontend-app/static/media/viktor-forgacs-3PyBkxgTiL0-unsplash.62e4ac24.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.eb172fa8.js",
+    "static/js/runtime-main.5af0deb7.js",
     "static/js/2.3d78cd44.chunk.js",
-    "static/css/main.59ef35e8.chunk.css",
+    "static/css/main.ae662a26.chunk.css",
     "static/js/main.af8de714.chunk.js"
   ]
 }
