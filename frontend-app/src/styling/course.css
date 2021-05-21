@@ -1,0 +1,48 @@
+
+.course-page{
+  display: flex;
+}
+
+.course-side{
+  background: rgb(21, 19, 113);
+  width: 20%;
+}
+
+.course-main{
+  width: 80%;
+}
+
+.course-head{
+  background-image: linear-gradient(to right, #ff00B8, #ffc700 );
+}
+
+.course-info{
+  background: rgb(21, 19, 113);
+}
+
+.course-side > div{
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.course-side > div > div {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.course-side > div > p {
+  padding: 5px 10px;
+}
+.course-side > div > p > img{
+  padding-right: 5px;
+  margin-top: 2px;
+}
+
+.course-side > h2{
+  color: white;
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
