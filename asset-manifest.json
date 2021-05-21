@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Minority-Programmers-Front-End-Test/static/css/main.59ef35e8.chunk.css",
-    "main.js": "/Minority-Programmers-Front-End-Test/static/js/main.c369956c.chunk.js",
-    "main.js.map": "/Minority-Programmers-Front-End-Test/static/js/main.c369956c.chunk.js.map",
+    "main.js": "/Minority-Programmers-Front-End-Test/static/js/main.1097b1aa.chunk.js",
+    "main.js.map": "/Minority-Programmers-Front-End-Test/static/js/main.1097b1aa.chunk.js.map",
     "runtime-main.js": "/Minority-Programmers-Front-End-Test/static/js/runtime-main.eb172fa8.js",
     "runtime-main.js.map": "/Minority-Programmers-Front-End-Test/static/js/runtime-main.eb172fa8.js.map",
     "static/js/2.2217a836.chunk.js": "/Minority-Programmers-Front-End-Test/static/js/2.2217a836.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.eb172fa8.js",
     "static/js/2.2217a836.chunk.js",
     "static/css/main.59ef35e8.chunk.css",
-    "static/js/main.c369956c.chunk.js"
+    "static/js/main.1097b1aa.chunk.js"
   ]
 }
