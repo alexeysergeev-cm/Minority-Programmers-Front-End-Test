@@ -9,40 +9,30 @@
     "id": "2",
     "name": "Intro to Blockchain",
     "brief": "Blockchain, Cryptocurrency Fundamentals",
-    "weeks": [{"1": ["Introduction", "Introduction", "Introduction"]}, {"2": ["Introduction", "Introduction", "Introduction"]}, {"3": ["Introduction", "Introduction", "Introduction"]},
-              {"4": ["Introduction", "Introduction", "Introduction"]},{"6": ["Introduction", "Introduction", "Introduction"]},{"6": ["Introduction", "Introduction", "Introduction"]},
-              {"5": ["Introduction", "Introduction", "Introduction"]},{"8": ["Introduction", "Introduction", "Introduction"]},{"9": ["Introduction", "Introduction", "Introduction"]}]
+    "weeks": [["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"]]
   },
   {
     "id": "3",
     "name": "Intro to Blockchain",
     "brief": "Blockchain, Cryptocurrency Fundamentals",
-    "weeks": [{"1": ["Introduction", "Introduction", "Introduction"]}, {"2": ["Introduction", "Introduction", "Introduction"]}, {"3": ["Introduction", "Introduction", "Introduction"]},
-              {"4": ["Introduction", "Introduction", "Introduction"]},{"6": ["Introduction", "Introduction", "Introduction"]},{"6": ["Introduction", "Introduction", "Introduction"]},
-              {"5": ["Introduction", "Introduction", "Introduction"]},{"8": ["Introduction", "Introduction", "Introduction"]},{"9": ["Introduction", "Introduction", "Introduction"]}]
+    "weeks": [["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"]]
   },
   {
     "id": "4",
     "name": "Intro to Blockchain",
     "brief": "Blockchain, Cryptocurrency Fundamentals",
-    "weeks": [{"1": ["Introduction", "Introduction", "Introduction"]}, {"2": ["Introduction", "Introduction", "Introduction"]}, {"3": ["Introduction", "Introduction", "Introduction"]},
-              {"4": ["Introduction", "Introduction", "Introduction"]},{"6": ["Introduction", "Introduction", "Introduction"]},{"6": ["Introduction", "Introduction", "Introduction"]},
-              {"5": ["Introduction", "Introduction", "Introduction"]},{"8": ["Introduction", "Introduction", "Introduction"]},{"9": ["Introduction", "Introduction", "Introduction"]}]
+    "weeks": [["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"]]
   },
   {
     "id": "5",
     "name": "Intro to Blockchain",
     "brief": "Blockchain, Cryptocurrency Fundamentals",
-    "weeks": [{"1": ["Introduction", "Introduction", "Introduction"]}, {"2": ["Introduction", "Introduction", "Introduction"]}, {"3": ["Introduction", "Introduction", "Introduction"]},
-              {"4": ["Introduction", "Introduction", "Introduction"]},{"6": ["Introduction", "Introduction", "Introduction"]},{"6": ["Introduction", "Introduction", "Introduction"]},
-              {"5": ["Introduction", "Introduction", "Introduction"]},{"8": ["Introduction", "Introduction", "Introduction"]},{"9": ["Introduction", "Introduction", "Introduction"]}]
+    "weeks": [["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"]]
   },
   {
     "id": "6",
     "name": "Intro to Blockchain",
     "brief": "Blockchain, Cryptocurrency Fundamentals",
-    "weeks": [{"1": ["Introduction", "Introduction", "Introduction"]}, {"2": ["Introduction", "Introduction", "Introduction"]}, {"3": ["Introduction", "Introduction", "Introduction"]},
-              {"4": ["Introduction", "Introduction", "Introduction"]},{"6": ["Introduction", "Introduction", "Introduction"]},{"6": ["Introduction", "Introduction", "Introduction"]},
-              {"5": ["Introduction", "Introduction", "Introduction"]},{"8": ["Introduction", "Introduction", "Introduction"]},{"9": ["Introduction", "Introduction", "Introduction"]}]
+    "weeks": [["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"],["Introduction", "Introduction", "Introduction"]]
   }
 ]

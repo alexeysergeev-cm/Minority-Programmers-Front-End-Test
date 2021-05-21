@@ -33,15 +33,12 @@ class Course extends React.Component{
         return( 
           <div>
             <div>Week {i+1}</div>
-            {week.map((wModule,i) => {
-              if(i === week.length - 1){
-                return (<p><img src="https://img.icons8.com/fluent/20/000000/checked-radio-button.png"/>{wModule}</p>)
-
-              }
-              return (<p><img src="https://img.icons8.com/flat-round/18/000000/checkmark.png"/>{wModule}</p>)
-            }
-            
-            )}
+              {week.map((wModule,i) => {
+                if(i === week.length - 1){
+                  return (<p><img src="https://img.icons8.com/fluent/20/000000/checked-radio-button.png"/>{wModule}</p>)
+                }
+                return (<p><img src="https://img.icons8.com/flat-round/18/000000/checkmark.png"/>{wModule}</p>)
+              })}
           </div>
         )
       })
@@ -56,10 +53,26 @@ class Course extends React.Component{
         </div>
         <div className='course-main'>
           <div className='course-head'>
-
+            <div>
+              <img src="https://img.icons8.com/emoji/144/000000/slightly-smiling-face.png"/>
+            </div>
+            <div>
+              <p>Welcome Back, Helen</p>
+              <button>Resume</button>
+            </div>
           </div>
           <div className='course-info'>
-
+            <div className='course-tags'>
+              <div className='modules'>
+                <h2>Modules</h2>
+              </div>
+              <div className='calendar'>
+                <h2>Calendar</h2>
+              </div>
+              <div className='messages'>
+                <h2>Messages</h2>
+              </div>
+            </div>
           </div>
         </div>
       </div>
