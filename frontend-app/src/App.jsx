@@ -19,4 +19,11 @@ const App = () => (
   </div>
 )
 
+//  <NavBar />
+//     <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
+//     <Route exact path={process.env.PUBLIC_URL + '/incubator'} component={IncubatorIndex} />
+//     <Route exact path={process.env.PUBLIC_URL + '/incubator/:startUpId'} component={StartUp} />
+//     <Route exact path='/learn' component={Learn} />
+//     <Route exact path={process.env.PUBLIC_URL + '/learn/:courseId'} component={Course} />
+
 export default App;

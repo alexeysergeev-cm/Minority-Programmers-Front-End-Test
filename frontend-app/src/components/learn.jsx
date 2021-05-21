@@ -1,10 +1,11 @@
 import React from 'react';
 import '../styling/learn.css';
 import { Link } from 'react-router-dom';
-
 const Courses = require("../data/courses.json");
 
+
 class Learn extends React.Component{
+
 
   render(){
     return(
@@ -25,8 +26,6 @@ class Learn extends React.Component{
               <button>Filter Search</button>
             </div>
           </div>
-          {/* <hr className='Solid'/>
-          <p>My Courses</p> */}
           <div className='break'>
             <span>My Courses</span>
             <h2></h2>
